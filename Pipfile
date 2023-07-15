@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch-directml = "*"
+numpy = "*"
+pandas = "*"
+tensorboard = "*"
+matplotlib = "*"
+tqdm = "*"
+pyyaml = "*"
+opencv-python = "*"
+wget = "*"
+torchvision = "*"
+torch = "*"
+torchaudio = "*"
+transformers = "*"
+xformers = "*"
+accelerate = "*"
+einops = "*"
+bitsandbytes = ">=0.39.1"
+scipy = "*"
+optimum = "*"
+datasets = "*"
+loralib = "*"
+peft = {git = "https://github.com/huggingface/peft.git"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
